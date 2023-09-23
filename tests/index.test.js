@@ -9,5 +9,5 @@ test('Do math', () => {
 })
 
 test('Greet', () => {
-	expect(greet('Foo')).toBe('Hell Foo')
+	expect(greet('Foo')).toBe('Hello Foo')
 })
