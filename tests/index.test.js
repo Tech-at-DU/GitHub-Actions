@@ -1,5 +1,4 @@
-import { hello, doMath, greet } from '../dist'
-// const { hello, doMath, greet } = require('../dist/index.js')
+import { hello, doMath, greet } from '../src'
 
 test('Test Hello', () => {
 	expect(hello()).toBe('Hello World')
