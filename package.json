@@ -2,9 +2,11 @@
   "name": "github-actions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "coverage": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --collectCoverage --"
   },
@@ -12,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.6.3",
     "cross-env": "^7.0.3",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "typescript": "^5.2.2"
   }
 }
