@@ -1,4 +1,4 @@
-import { hello, doMath, greet } from '../src'
+import { hello, doMath, greet, pi } from '../src'
 
 test('Test Hello', () => {
 	expect(hello()).toBe('Hello World')
@@ -10,4 +10,8 @@ test('Do math', () => {
 
 test('Greet', () => {
 	expect(greet('Foo')).toBe('Hello Foo')
+})
+
+test('Pi', () => {
+	expect(pi()).toBe(3.14)
 })

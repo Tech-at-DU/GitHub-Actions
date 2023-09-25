@@ -13,3 +13,7 @@ export function random(n) {
 export function greet(name) {
 	return `Hello ${name}`
 }
+
+export function pi() {
+	return 3.14
+}
